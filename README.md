@@ -16,3 +16,7 @@ Creation of a Azure SQL Database using an student suscription (2021). 2022.  You
 
 https://github.com/VCDN-2024/cldv6211-part-2-ST10198206/assets/128484701/af83be54-28ca-47eb-9ecc-12a72c546791
 
+
+
+https://github.com/VCDN-2024/cldv6211-part-2-ST10198206/assets/128484701/ff86c57d-ca1b-4056-be53-5371be3d49ec
+
