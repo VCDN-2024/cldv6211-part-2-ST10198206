@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Work";
+}
+<link rel="stylesheet" href="~/css/Work.css" asp-append-version="true" />
+
+<body>
+    <div class="container">
+        <h2>Craft Items on Sale</h2>
+
+        <div class="item">
+            <img src="~/media/ClayPot.jpg" alt="Craft Item 1">
+            <div class="item-info">
+                <h3>Handmade Clay Pot</h3>
+                <p>A beautiful clay pot crafted by skilled artisans.</p>
+                <p>Price: R20.99</p>
+                <button>Buy me</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="~/media/Basket.jpg" alt="Craft Item 2">
+            <div class="item-info">
+                <h3>Handwoven Basket</h3>
+                <p>An intricately handwoven basket, perfect for storing small items.</p>
+                <p>Price: R15.49</p>
+                <button>Buy me</button>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src="~/media/Sculpture.jpg" alt="Craft Item 3">
+            <div class="item-info">
+                <h3>Wooden Sculpture</h3>
+                <p>A finely carved wooden sculpture depicting nature's beauty.</p>
+                <p>Price: R30.00</p>
+                <button>Buy me</button>
+            </div>
+        </div>
+
+
+
+        <p>
+           <a class="Additembtn" asp-area="" asp-controller="Items" asp-action="Index">Add Item</a>
+        </p>
+    </div>
+</body>
+

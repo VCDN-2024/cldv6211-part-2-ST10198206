@@ -1,0 +1,60 @@
+﻿@{
+    ViewData["Title"] = "Cart";
+}
+<link rel="stylesheet" href="~/css/Cart.css" asp-append-version="true" />
+
+<body>
+    <div class="container">
+        <h2>Your Cart</h2>
+        <table class="cart-table">
+            <thead>
+                <tr>
+                    <th>Item</th>
+                    <th>Description</th>
+                    <th>Price</th>
+                    <th>Quantity</th>
+                    <th>Total</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="~/media/ClayPot.jpg" alt="Craft Item 1" class="cart-item-img"></td>
+                    <td>Handmade Clay Pot</td>
+                    <td>R20.99</td>
+                    <td>
+                        <input type="number" value="1" min="1" class="quantity-input">
+                    </td>
+                    <td>R20.99</td>
+                    <td>
+                        <button class="update-btn">Update</button>
+                        <button class="remove-btn">Remove</button>
+                    </td>
+                </tr>
+                <!-- Repeat for other items -->
+            </tbody>
+        </table>
+        <div class="cart-summary">
+            <p><strong>Subtotal:</strong> R20.99</p>
+            <p><strong>Tax:</strong> R2.10</p>
+            <p><strong>Total:</strong> R23.09</p>
+            <button class="checkout-btn">Proceed to Checkout</button>
+        </div>
+    </div>
+
+    <script>
+        document.querySelectorAll('.remove-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                // Add functionality to remove item from cart
+                alert('Item removed from cart');
+            });
+        });
+
+        document.querySelectorAll('.update-btn').forEach(button => {
+            button.addEventListener('click', function() {
+                // Add functionality to update item quantity in cart
+                alert('Item quantity updated');
+            });
+        });
+    </script>
+</body>
