@@ -13,6 +13,7 @@ Azure SQL Database deploy from SQL server management studio to Azure SQL server 
 Creation of a Azure SQL Database using an student suscription (2021). 2022.  YouTube video, added by Alan Ferrandiz Langley. [Online]. Available at: https://youtu.be/X0WCy9V_GwM?si=MUbDlv_nfYHOW-E3
 [Accessed on 24 May 2024]
 
+## Videos
 
 https://github.com/VCDN-2024/cldv6211-part-2-ST10198206/assets/128484701/af83be54-28ca-47eb-9ecc-12a72c546791
 
