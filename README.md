@@ -1,0 +1,16 @@
+# ST10198206_PROG6221_PartOne
+
+**Azure Link** 
+https://st10198206part2.azurewebsites.net
+
+## References
+Azure real time interview Questions - Part 5. 2020. YouTube video, added by Cloud Academy - All in One. [Online]. Available at: https://www.youtube.com/watch?v=Hql4OgEmRSU
+[Accessed on 25 May 2024]
+
+Azure SQL Database deploy from SQL server management studio to Azure SQL server - Part 6. 2020. YouTube video, added by Cloud Academy - All in One. [Online]. Available at: https://youtu.be/m0ToHLDutE8?si=MT4ZJodPPoH7d38Q
+[Accessed on 25 May 2024]
+
+Creation of a Azure SQL Database using an student suscription (2021). 2022.  YouTube video, added by Alan Ferrandiz Langley. [Online]. Available at: https://youtu.be/X0WCy9V_GwM?si=MUbDlv_nfYHOW-E3
+[Accessed on 24 May 2024]
+
+
